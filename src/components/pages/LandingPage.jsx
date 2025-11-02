@@ -22,7 +22,7 @@ export default function LandingPage() {
         
         <div>
           {
-            !user?
+            user?
           
           <div
             className="flex items-center gap-4 bg-purple-700 px-5 py-2 rounded-full text-white cursor-pointer hover:bg-green-600 transition font-semibold"
